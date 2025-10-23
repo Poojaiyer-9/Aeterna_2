@@ -1,0 +1,561 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Aeterna - Luxury Lasts for an Eternity</title>
+        <meta
+            name="description"
+            content="Discover Aeterna's exclusive collection of luxury fragrances. From Nightfall Elixirs to Limited Edition scents, experience perfumes that last for an eternity."
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body class="dark">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo-container">
+                    <img
+                        src="logo_1760546447927.jpg"
+                        alt="Aeterna Logo"
+                        class="logo-img"
+                    />
+                    <span class="logo-text">AETERNA</span>
+                </div>
+
+                <nav class="nav-desktop">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#men" class="nav-link">Men</a>
+                    <a href="#women" class="nav-link">Women</a>
+                    <a href="#admin" class="nav-link">Admin</a>
+                </nav>
+
+                <div class="header-actions">
+                    <button class="cart-btn" data-testid="button-cart">
+                        <svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                        >
+                            <path
+                                d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"
+                            ></path>
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <path d="M16 10a4 4 0 0 1-8 0"></path>
+                        </svg>
+                        <span class="cart-count">0</span>
+                    </button>
+                    <button class="menu-toggle" id="menuToggle">
+                        <span class="menu-icon"></span>
+                        <span class="menu-icon"></span>
+                        <span class="menu-icon"></span>
+                    </button>
+                </div>
+            </div>
+
+            <nav class="nav-mobile" id="mobileNav">
+                <a href="#home" class="nav-link-mobile">Home</a>
+                <a href="#men" class="nav-link-mobile">Men</a>
+                <a href="#women" class="nav-link-mobile">Women</a>
+                <a href="#admin" class="nav-link-mobile">Admin</a>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+        <main id="mainContent">
+            <!-- Home Page -->
+            <section id="home" class="page active">
+                <!-- Hero Section -->
+                <section class="hero">
+                    <div class="hero-collage">
+                        <div class="hero-collage-item hero-collage-left">
+                            <img
+                                src="women_1760546447931.jpg"
+                                alt="Women's Fragrances"
+                            />
+                        </div>
+
+                        <div class="hero-collage-item hero-collage-center">
+                            <img
+                                src="huge_1760546447927.png"
+                                alt="Luxury Aeterna Collection"
+                            />
+                        </div>
+
+                        <div class="hero-collage-item hero-collage-right">
+                            <img
+                                src="menimage_1760546447927.png"
+                                alt="Men's Fragrances"
+                            />
+                        </div>
+                    </div>
+                    <div class="hero-overlay"></div>
+                    <div class="hero-content">
+                        <h1 class="hero-title">AETERNA</h1>
+                        <p class="hero-subtitle">
+                            Luxury Lasts for an Eternity
+                        </p>
+                        <div class="hero-buttons">
+                            <button
+                                class="btn btn-primary"
+                                data-testid="button-explore"
+                            >
+                                Explore Collection
+                            </button>
+                            <button
+                                class="btn btn-outline"
+                                data-testid="button-discover"
+                            >
+                                Discover More
+                            </button>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Fragrances Section -->
+                <section class="fragrances-section">
+                    <div class="container">
+                        <div class="section-header">
+                            <h2 class="section-title">Fragrances</h2>
+                            <p class="section-subtitle">
+                                Discover our exclusive collections
+                            </p>
+                        </div>
+
+                        <div class="category-grid">
+                            <div
+                                class="category-card"
+                                data-category="new-in"
+                                data-gender="women"
+                                data-testid="category-card-new-in"
+                            >
+                                <img
+                                    src="fragrancewomen1_1760546447925.png"
+                                    alt="New In"
+                                />
+                                <div class="category-overlay"></div>
+                                <h3 class="category-title">New In</h3>
+                            </div>
+                            <div
+                                class="category-card"
+                                data-category="nightfall-elixirs"
+                                data-gender="men"
+                                data-testid="category-card-nightfall-elixirs"
+                            >
+                                <img
+                                    src="fragrance1_1760546447923.png"
+                                    alt="Nightfall Elixirs"
+                                />
+                                <div class="category-overlay"></div>
+                                <h3 class="category-title">
+                                    Nightfall Elixirs
+                                </h3>
+                            </div>
+                            <div
+                                class="category-card"
+                                data-category="limited-edit"
+                                data-gender="women"
+                                data-testid="category-card-the-limited-edit"
+                            >
+                                <img
+                                    src="fw2_1760546447925.png"
+                                    alt="The Limited Edit"
+                                />
+                                <div class="category-overlay"></div>
+                                <h3 class="category-title">The Limited Edit</h3>
+                            </div>
+                            <div
+                                class="category-card"
+                                data-category="most-celebrated"
+                                data-gender="men"
+                                data-testid="category-card-most-celebrated"
+                            >
+                                <img
+                                    src="fragrance2_1760546447924.png"
+                                    alt="Most Celebrated"
+                                />
+                                <div class="category-overlay"></div>
+                                <h3 class="category-title">Most Celebrated</h3>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Footer -->
+                <footer class="footer">
+                    <div class="container">
+                        <div class="footer-grid">
+                            <div>
+                                <h3 class="footer-brand">AETERNA</h3>
+                                <p class="footer-text">
+                                    Luxury fragrances that last for an eternity.
+                                    
+                                </p>
+                            </div>
+                            <div>
+                                <h4 class="footer-heading">Shop</h4>
+                                <ul class="footer-links">
+                                    <li><a href="#men">Men's Fragrances</a></li>
+                                    <li>
+                                        <a href="#women">Women's Fragrances</a>
+                                    </li>
+                                    <li><a href="#women">New Arrivals</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 class="footer-heading">About</h4>
+                                <ul class="footer-links">
+                                    <li><a href="#">Our Story</a></li>
+                                    <li><a href="#">Craftsmanship</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 class="footer-heading">Follow Us</h4>
+                                <div class="social-links">
+                                    <button class="social-btn">
+                                        <svg
+                                            width="20"
+                                            height="20"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                        >
+                                            <rect
+                                                x="2"
+                                                y="2"
+                                                width="20"
+                                                height="20"
+                                                rx="5"
+                                                ry="5"
+                                            ></rect>
+                                            <path
+                                                d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+                                            ></path>
+                                            <line
+                                                x1="17.5"
+                                                y1="6.5"
+                                                x2="17.51"
+                                                y2="6.5"
+                                            ></line>
+                                        </svg>
+                                    </button>
+                                    <button class="social-btn">
+                                        <svg
+                                            width="20"
+                                            height="20"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                        >
+                                            <path
+                                                d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                                            ></path>
+                                        </svg>
+                                    </button>
+                                    <button class="social-btn">
+                                        <svg
+                                            width="20"
+                                            height="20"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                        >
+                                            <path
+                                                d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
+                                            ></path>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-bottom">
+                            <p>© 2025 Aeterna. All rights reserved.</p>
+                        </div>
+                    </div>
+                </footer>
+            </section>
+
+            <!-- Men's Page -->
+            <section id="men" class="page">
+                <div class="page-content">
+                    <div class="container">
+                        <button class="back-btn" onclick="navigateTo('home')">
+                            <svg
+                                width="20"
+                                height="20"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                            >
+                                <polyline points="15 18 9 12 15 6"></polyline>
+                            </svg>
+                            Back to Home
+                        </button>
+
+                        <div class="page-header">
+                            <h1 class="page-title">Men's Collection</h1>
+                            <p class="page-subtitle">
+                                Sophisticated fragrances for the modern
+                                gentleman
+                            </p>
+                        </div>
+
+                        <div class="filter-buttons" id="menFilters">
+                            <button class="filter-btn active" data-filter="all">
+                                All Fragrances
+                            </button>
+                            <button class="filter-btn" data-filter="new-in">
+                                New In
+                            </button>
+                            <button
+                                class="filter-btn"
+                                data-filter="nightfall-elixirs"
+                            >
+                                Nightfall Elixirs
+                            </button>
+                            <button
+                                class="filter-btn"
+                                data-filter="limited-edit"
+                            >
+                                The Limited Edit
+                            </button>
+                            <button
+                                class="filter-btn"
+                                data-filter="most-celebrated"
+                            >
+                                Most Celebrated
+                            </button>
+                        </div>
+
+                        <div class="products-grid" id="menProducts"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Women's Page -->
+            <section id="women" class="page">
+                <div class="page-content">
+                    <div class="container">
+                        <button class="back-btn" onclick="navigateTo('home')">
+                            <svg
+                                width="20"
+                                height="20"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                            >
+                                <polyline points="15 18 9 12 15 6"></polyline>
+                            </svg>
+                            Back to Home
+                        </button>
+
+                        <div class="page-header">
+                            <h1 class="page-title">Women's Collection</h1>
+                            <p class="page-subtitle">
+                                Elegant fragrances for the sophisticated woman
+                            </p>
+                        </div>
+
+                        <div class="filter-buttons" id="womenFilters">
+                            <button class="filter-btn active" data-filter="all">
+                                All Fragrances
+                            </button>
+                            <button class="filter-btn" data-filter="new-in">
+                                New In
+                            </button>
+                            <button
+                                class="filter-btn"
+                                data-filter="nightfall-elixirs"
+                            >
+                                Nightfall Elixirs
+                            </button>
+                            <button
+                                class="filter-btn"
+                                data-filter="limited-edit"
+                            >
+                                The Limited Edit
+                            </button>
+                            <button
+                                class="filter-btn"
+                                data-filter="most-celebrated"
+                            >
+                                Most Celebrated
+                            </button>
+                        </div>
+
+                        <div class="products-grid" id="womenProducts"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Admin Page -->
+            <section id="admin" class="page">
+                <div class="page-content">
+                    <div class="container">
+                        <button class="back-btn" onclick="navigateTo('home')">
+                            <svg
+                                width="20"
+                                height="20"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                            >
+                                <polyline points="15 18 9 12 15 6"></polyline>
+                            </svg>
+                            Back to Home
+                        </button>
+
+                        <div class="page-header">
+                            <h1 class="page-title">Admin Dashboard</h1>
+                            <p class="page-subtitle">
+                                Manage your fragrance collection
+                            </p>
+                        </div>
+
+                        <div class="admin-tabs">
+                            <button class="tab-btn active" data-tab="products">
+                                Products
+                            </button>
+                            <button class="tab-btn" data-tab="add">
+                                Add Product
+                            </button>
+                        </div>
+
+                        <div class="tab-content">
+                            <div id="products-tab" class="tab-panel active">
+                                <div class="card">
+                                    <h3 class="card-title">
+                                        Product Management
+                                    </h3>
+                                    <div id="adminProducts"></div>
+                                </div>
+                            </div>
+
+                            <div id="add-tab" class="tab-panel">
+                                <div class="card">
+                                    <h3 class="card-title">Add New Product</h3>
+                                    <form
+                                        class="product-form"
+                                        id="addProductForm"
+                                    >
+                                        <div class="form-row">
+                                            <div class="form-group">
+                                                <label for="productName"
+                                                    >Product Name</label
+                                                >
+                                                <input
+                                                    type="text"
+                                                    id="productName"
+                                                    placeholder="e.g. Midnight Essence"
+                                                    required
+                                                />
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="productPrice"
+                                                    >Price</label
+                                                >
+                                                <input
+                                                    type="number"
+                                                    id="productPrice"
+                                                    placeholder="149"
+                                                    required
+                                                />
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="productCategory"
+                                                >Category</label
+                                            >
+                                            <select
+                                                id="productCategory"
+                                                required
+                                            >
+                                                <option value="">
+                                                    Select category
+                                                </option>
+                                                <option value="new-in">
+                                                    New In
+                                                </option>
+                                                <option
+                                                    value="nightfall-elixirs"
+                                                >
+                                                    Nightfall Elixirs
+                                                </option>
+                                                <option value="limited-edit">
+                                                    The Limited Edit
+                                                </option>
+                                                <option value="most-celebrated">
+                                                    Most Celebrated
+                                                </option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="productGender"
+                                                >Gender</label
+                                            >
+                                            <select id="productGender" required>
+                                                <option value="">
+                                                    Select gender
+                                                </option>
+                                                <option value="men">Men</option>
+                                                <option value="women">
+                                                    Women
+                                                </option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="productDescription"
+                                                >Description</label
+                                            >
+                                            <textarea
+                                                id="productDescription"
+                                                rows="4"
+                                                placeholder="A captivating blend of rare ingredients..."
+                                                required
+                                            ></textarea>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="productImage"
+                                                >Image Path</label
+                                            >
+                                            <input
+                                                type="text"
+                                                id="productImage"
+                                                placeholder="fragrance1_1760544381798.png"
+                                                required
+                                            />
+                                        </div>
+                                        <button
+                                            type="submit"
+                                            class="btn btn-primary btn-full"
+                                        >
+                                            Add Product
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <script src="script.js"></script>
+    </body>
+</html>

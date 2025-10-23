@@ -1,0 +1,169 @@
+╔════════════════════════════════════════════════════════════════╗
+║                                                                ║
+║      AETERNA - LUXURY FRAGRANCE WEBSITE                        ║
+║      Complete Standalone Package                               ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
+
+📦 FOLDER CONTENTS
+═══════════════════
+
+✓ index.html           - Main website file
+✓ styles.css           - All styling (dark luxury theme)
+✓ script.js            - Interactive features
+✓ attached_assets/     - All 13 images
+✓ README.md            - Detailed documentation
+✓ HOW_TO_RUN.txt       - Quick start guide
+
+
+🚀 HOW TO RUN (3 EASY OPTIONS)
+═══════════════════════════════
+
+OPTION 1 - SIMPLEST (No Setup Required)
+────────────────────────────────────────
+1. Open this folder: aeterna-website
+2. Double-click: index.html
+3. Done! Website opens in your browser
+
+
+OPTION 2 - PYTHON SERVER (Recommended)
+───────────────────────────────────────
+1. Open Terminal/Command Prompt
+2. Type: cd path/to/aeterna-website
+3. Type: python -m http.server 8000
+4. Open browser: http://localhost:8000
+
+
+OPTION 3 - NODE.JS
+──────────────────
+1. Open Terminal/Command Prompt  
+2. Type: cd path/to/aeterna-website
+3. Type: npx serve
+4. Open the URL shown
+
+
+✨ FEATURES
+═══════════
+
+• Beautiful collage hero section
+  - Women's image on left
+  - Couple & man images on right with gaps
+  
+• 12 Luxury fragrance products
+  - 6 Men's fragrances
+  - 6 Women's fragrances
+  
+• 4 Product categories
+  - New In
+  - Nightfall Elixirs  
+  - The Limited Edit
+  - Most Celebrated
+  
+• Interactive features
+  - Category filtering
+  - Product cards with smooth animations
+  - Admin dashboard
+  - Mobile responsive
+  
+• Dark luxury design
+  - Gold accents (#D4AF37)
+  - Professional typography
+  - Smooth hover effects
+
+
+📂 FOLDER STRUCTURE
+═══════════════════
+
+aeterna-website/
+├── index.html                    (Main page)
+├── styles.css                    (All styling)
+├── script.js                     (Functionality)
+├── README.md                     (Documentation)
+├── HOW_TO_RUN.txt               (Quick guide)
+├── DOWNLOAD_AND_RUN.txt         (This file)
+└── attached_assets/              (Images folder)
+    ├── logo_*.jpg               (Brand logo)
+    ├── women_*.jpg              (Hero left image)
+    ├── huge_*.png               (Hero top-right)
+    ├── menimage_*.png           (Hero bottom-right)
+    ├── fragrance1_*.png         (Men's product)
+    ├── fragrance2_*.png         (Men's product)
+    ├── fragrancewomen1_*.png    (Women's product)
+    ├── fw2_*.png                (Women's product)
+    ├── fw3_*.png                (Women's product)
+    ├── set1_*.png               (Product set)
+    ├── set2_*.png               (Product set)
+    ├── gift1_*.jpg              (Gift set)
+    └── towel_*.png              (Lifestyle image)
+
+
+🔧 CUSTOMIZATION
+════════════════
+
+To edit products:
+→ Open: script.js
+→ Find: products object (line 1)
+→ Edit: names, prices, images, categories
+
+To change colors:
+→ Open: styles.css  
+→ Find: :root.dark (line 2)
+→ Edit: CSS color variables
+
+To add images:
+→ Add file to: attached_assets/
+→ Reference in: script.js products
+
+
+💻 REQUIREMENTS
+═══════════════
+
+✓ Any modern web browser
+✓ No installation needed
+✓ No internet required (runs offline)
+✓ No frameworks or dependencies
+✓ Pure HTML/CSS/JavaScript
+
+
+📱 WORKS ON
+═══════════
+
+✓ Desktop (Windows, Mac, Linux)
+✓ Mobile (iOS, Android)
+✓ Tablets
+✓ All modern browsers
+
+
+📊 SIZE
+═══════
+
+Total: ~14 MB
+- Code: ~60 KB
+- Images: ~14 MB
+
+
+🎯 PAGES
+════════
+
+1. Home (/)
+   - Hero collage
+   - Category cards
+   - Footer
+
+2. Men's Collection (/men)
+   - 6 products
+   - Category filters
+
+3. Women's Collection (/women)  
+   - 6 products
+   - Category filters
+
+4. Admin Dashboard (/admin)
+   - Product management
+   - Add products form
+
+
+
+────────────────────────────────────────────────────────────────
+Aeterna - Luxury Lasts for an Eternity ✨
+────────────────────────────────────────────────────────────────
